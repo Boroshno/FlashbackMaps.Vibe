@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashback Maps</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-rotatedmarker@0.2.0/leaflet.rotatedMarker.js"></script>
+</head>
+<body>
+  <div id="map"></div>
+
+  <div id="slider-container" class="hidden">
+    <div class="slider-wrapper">
+      <span id="close-btn">&times;</span>
+      <div class="img-container">
+        <img src="" id="img-new" />
+        <div id="img-overlay">
+          <img src="" id="img-old" />
+        </div>
+      </div>
+      <input type="range" id="slider" min="0" max="100" value="50" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
