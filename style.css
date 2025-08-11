@@ -1,0 +1,54 @@
+html, body, #map {
+  height: 100%;
+  margin: 0;
+}
+#map {
+  width: 100%;
+}
+#slider-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+#slider-container.hidden {
+  display: none;
+}
+.slider-wrapper {
+  position: relative;
+  background: #fff;
+  padding: 10px;
+}
+.img-container {
+  position: relative;
+  width: 400px;
+  max-width: 90vw;
+  overflow: hidden;
+}
+.img-container img {
+  display: block;
+  width: 100%;
+}
+#img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+#close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+#slider {
+  width: 100%;
+}
